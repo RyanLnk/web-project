@@ -1,0 +1,77 @@
+@charset "UTF-8";
+.flex {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.produto {
+    width: 500px;
+    height: 500px;
+}
+.div {
+    width: 42%;
+}
+.div h1 {
+    font-size: 30pt;
+    font-weight: bolder;
+    padding-bottom: 0px;
+    margin: 0;
+    margin-left: 10%;
+    margin-top: 16px;    
+}
+.div h3 {
+    text-align: justify;
+    font-weight: normal;
+    font-size: 12pt;
+    padding-bottom: 100px;
+    margin-left: 10%;
+    width: 76%;
+}
+.form {
+    display: inline;
+    margin-top: 0;
+    padding-top: 0;
+}
+.form select[name='tamanho'] {
+    border: 1px black solid;
+    width: 200px;
+    height: 30px;
+    margin-left: 10%;
+}
+.form input[type='number'] {
+    border: 1px black solid;
+    width: 45px;
+    height: 25px;
+}
+.form input[type='submit'] {
+    border: 1px black solid;
+    width: 75%;
+    height: 40px;
+    background-color: #424242;
+    color:  #FFFFFF;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.feedback {
+    margin-top: 30px;
+    margin-left: 32%;
+}
+.feedback-text {
+    padding: 0;
+    margin: 0;
+}
+.frase-principal-2 {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.frase-principal-2 h2 {
+    font-size: 20pt;
+    text-align: center;
+    margin: 0;
+}
+.center-img {
+    width: 200px;
+    height: 200px;
+}

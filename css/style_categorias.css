@@ -1,0 +1,93 @@
+@charset "UTF-8";
+.frase-principal {
+    background: #CCCCCC;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.frase-principal h1 {
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.frase-principal hr {
+    width: 350px;
+    border: 1px #000000 solid;
+    margin-bottom: 30px;
+}
+.frase-principal-2 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.frase-principal-2 h2 {
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.flex {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.flex figure {
+    display: inline-block;
+}
+.center-img {
+    width: 250px;
+    height: 250px;
+}
+.hr-1 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.todos-produtos-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 22pt;
+    font-weight: bold;
+}
+.garantia {
+    display: flex;
+    justify-content: center;
+}
+.garantia div {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+.garantia h2 {
+    font-size: 20pt;
+    font-weight: 900;
+    margin: 0;
+}
+.garantia hr {
+    border: 1px solid;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+.garantia h3 {
+    font-size: 10pt;
+    text-align: justify;
+    width: 300px;
+    margin-right: 0;
+    font-weight: normal;
+}
+.garantia a {
+    text-decoration: none;
+    font-size: 12pt;
+    color:  #424242;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.contato span {
+    border: 1px  #424242 solid;
+    padding: 10px;
+    color: white;
+    background-color: #424242;
+    border-radius: 1px;
+}

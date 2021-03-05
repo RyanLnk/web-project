@@ -1,0 +1,63 @@
+@charset "UTF-8";
+html, body {
+    width: 85%;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Nunito', sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background: #CCCCCC;
+}
+header nav, header figure, header div, header ul, header li {
+    display: inline;
+    vertical-align: middle;
+}
+.logo {
+    width: 85px;
+    height: 50px;
+}
+.barra {
+    padding: 5px;
+}
+.barra input {
+    border-radius: 5px;
+    border: 1px black solid;
+    width: 350px;
+    height: 30px;
+}
+.menu ul {
+    float: right;
+}
+.menu li:before {
+    content: " | ";
+}
+.menu li:first-child:before, .menu li:last-child:before {
+    content: none;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 16pt;
+    color:  #424242;
+    padding: 10px;
+    font-weight: bolder;
+}
+.carrinho span, .login span {
+    border: 1px  #424242 solid;
+    padding: 10px;
+    color: white;
+    background-color: #424242;
+    border-radius: 15px;
+}
+.icons-img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}

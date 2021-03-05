@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.frase-principal {
+    font-size: 30pt;
+    text-align: center;
+}
+.hr {
+    width: 350px;
+    border: 1px #000000 solid;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/style_autenticacao.css"/>
+    <link rel="stylesheet" href="../css/style_menu.css"/>
+    <link rel="stylesheet" href="../css/style_rodape.css"/>
+
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <figure>
+                <a href="../index.html"><img class="logo" src="../images/logo-bijuWH.png" alt="logo"></a>
+            </figure>
+            
+            <div class="barra">
+                <input type="text" placeholder="Buscar..."/>
+                <a href="#"><img class="icons-img" src="../images/lupa-logo.png" alt="Buscar"/></a>
+            </div> 
+
+            <ul>
+                <li><a href="../categorias/aneis.html">Anéis</a></li>
+                <li><a href="../categorias/brincos.html">Brincos</a></li>
+                <li><a href="../categorias/colares.html">Colares</a></li>
+                <li><a href="../categorias/pulseiras.html">Pulseiras</a></li>
+                <li>
+                    <a class="login" href="../autenticacao/autenticacao.html">
+                        <span>
+                            <img class="icons-img" src="../images/login.png" alt="login">
+                            Login
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a class="carrinho" href="#">
+                        <span>
+                            <img class="icons-img" src="../images/carrinho-logo.png" alt="carrinho"> 
+                            Carrinho
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <section class="frase-principal">
+            <h1>Seu cadastro</h1>
+        </section>
+    </article>
+
+    <article>
+        <section class="flex">
+            <div>
+                <h2>Já é cadastrado?</h2>
+                <h3>Entre com seus dados</h3>
+
+                <form class="form" action="../index.html" method="POST">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password">
+
+                    <input type="submit" value="Login">
+                </form>
+            </div>
+
+            <div>
+                <h2>Ainda não é cadastrado no site?</h2>
+                <h3>Faça agora mesmo o seu cadastro!</h3>
+
+                <form class="form" action="../index.html" method="POST">
+                    <label for="email1">Email</label>
+                    <input type="email" name="email1" id="email1">
+                    
+                    <label for="password2">Senha</label>
+                    <input type="password" name="password2" id="password2">
+                    
+                    <label for="password3">Confirme sua senha</label>
+                    <input type="password" name="password3" id="password3">
+
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" id="cpf">
+
+                    <label for="cep">CEP</label>
+                    <input type="text" name="cep" id="cep">
+
+                    <input type="submit" value="Cadastrar" onclick="alert('Cadastro realizado com sucesso!')">
+                </form>
+            </div>
+        </section>
+    </article>
+
+    <footer>           
+        <figure>
+            <a href="../index.html"><img class="logo" src="../images/logo-bijuWH.png" alt="logo"></a>
+            <address class="footer-text">Rua das portas, 1040 <br/> Centro - Pirapora</address>
+        </figure>
+
+        <div class="box"></div><div class="box linha-vertical"></div>
+
+        <div>
+            <figure class="stars">
+                <img src="../images/rating-stars-empty.png" alt="estrelas">
+                <img src="../images/rating-stars-empty.png" alt="estrelas">
+                <img src="../images/rating-stars-empty.png" alt="estrelas">
+                <img src="../images/rating-stars-empty.png" alt="estrelas">
+                <img src="../images/rating-stars-empty.png" alt="estrelas">
+            </figure>
+
+            <p class="footer-text-contato">Dê-nos o seu feedback.</p>
+
+            <a class="footer-text-contato-2" href="../contato/form.html"><p class="footer-text-contato-2">Fale conosco</p></a>
+
+            <div class="social-div">
+                <a class="social-link" href="http://www.facebook.com" target="_blank"><img class="social-img" src="../images/facebook-logo.png" alt="facebook"></a>
+                <a class="social-link" href="http://www.instagram.com" target="_blank"><img class="social-img" src="../images/instagram-logo.png" alt="Instagram"></a>
+            </div>            
+        </div>
+        
+        <div class="box"></div><div class="box linha-vertical"></div>
+
+        <ul>
+            <li><a href="../categorias/aneis.html">Anéis</a></li>
+            <li><a href="../categorias/brincos.html">Brincos</a></li>
+            <li><a href="../categorias/colares.html">Colares</a></li>
+            <li><a href="../categorias/pulseiras.html">Pulseiras</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

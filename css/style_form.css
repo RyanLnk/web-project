@@ -1,0 +1,50 @@
+@charset "UTF-8";
+.frase-principal h1 {
+    font-size: 30pt;
+    text-align: center;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.flex div {
+    border: 1px #D3D3D3 solid;
+    padding: 30px;
+    margin: 10px;
+    margin-bottom: 40px;
+    background-color: #D3D3D3;
+    box-shadow: 5px 10px 5px #696969;
+}
+.flex h2 {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.flex h3 {
+    margin-top: 2px;
+    font-weight: normal;
+}
+.form {
+    display: grid;
+}
+.form label {
+    margin-top: 10px;
+}
+.form input[type='text'], input[type='email'] {
+    border: 1px black solid;
+    width: 320px;
+    height: 30px;
+}
+.form textarea {
+    border: 1px black solid;
+    width: 320px;
+}
+.form input[type='submit'] {
+    border: 1px black solid;
+    width: 120px;
+    height: 34px;
+    background-color: #424242;
+    color: #FFFFFF;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
